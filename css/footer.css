@@ -1,0 +1,48 @@
+
+
+/* ========================= */
+/*        FOOTER             */
+/* ========================= */
+
+.footer {
+    background-color: rgba(0, 4, 7, 0.95);
+    color: #f2f2ff;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-brand img {
+
+    padding-bottom: 2px;
+    
+
+    /* multiplo de 8 */
+}
+
+.footer-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    /* multiplo de 8 */
+}
+
+.footer-nav a {
+    color: #f2f2ff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #e50914; /* Vermelho Homem-Aranha */
+    text-shadow: 0 0 8px rgba(229, 9, 20, 0.6); /* Brilho suave */
+}
+    
+    

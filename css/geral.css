@@ -1,0 +1,67 @@
+
+/* ========================= */
+/*        RESET CSS          */
+/* ========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    
+}
+
+html,
+body {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #060608;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* ========================= */
+/*        GRID PADRAO        */
+/* ========================= */
+.container {
+    width: 100%;
+    max-width: 77rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Orbitron', sans-serif;
+    /* títulos estilizados */
+    font-weight: 700;
+}
+
+
+
+p,
+span,
+li {
+    font-family: 'Roboto', sans-serif;
+    /* texto normal */
+}
